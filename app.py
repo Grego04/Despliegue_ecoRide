@@ -5,8 +5,8 @@ import os
 
 # Define the path to your models
 folder_path = '/content/drive/MyDrive/Ejercicios análisis de datos IA/Despliegue EcoRide '
-pipeline_path = os.path.join(folder_path, 'pipeline_preproc.pkl')
-model_path = os.path.join(folder_path, 'modelo_churn.pkl')
+pipeline_path = 'pipeline_preproc.pkl'
+model_path = 'modelo_churn.pkl'
 
 # Load the pipeline and model
 @st.cache_resource # Cache the loaded resources
